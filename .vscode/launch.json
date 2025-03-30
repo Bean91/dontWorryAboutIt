@@ -9,7 +9,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\C++\\HelloWorld.exe",
+            "program": "${workspaceFolder}\\C++\\UserInput.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
