@@ -38,7 +38,7 @@ int main() {
         }
     }
     double averageGrade = sumGrades/numClasses;
-    cout << "Your GPA(LOOOOOL): " << averageGrade << endl;
+    cout << "Your GPA: " << averageGrade << endl;
     return 0;
   
 }
