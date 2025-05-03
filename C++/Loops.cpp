@@ -21,10 +21,24 @@ int main() {
         }
     }
     while(numTimes){
-        cout << numTimes << endl;
+        if(numTimes % 2 == 0){
+            if(numTimes == 10){
+                // numTimes--;
+                // continue;
+                goto emotional_damage;
+            }
+            cout << numTimes << endl;
+        }
+        back_to_work:
         numTimes--;
     }
-    return 0;
-    
 
+    if(false) {
+        emotional_damage:
+        cout << "EMOTIONAL DAMAGE" << endl;
+    }
+    if(numTimes) {
+        goto back_to_work;
+    }
+    return 0;
 }
