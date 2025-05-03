@@ -18,9 +18,9 @@ int main(){
         }
         // cout << "numbers[" << j << "] = " << numbers[j] << endl;
     }
-    int num[1]={}; //default values: string == "" double == 0.0 float == 0.f or 0.0f, bool == false, char == '\0' (this is a null character)
+    //int num[1]={}; //default values: string == "" double == 0.0 float == 0.f or 0.0f, bool == false, char == '\0' (this is a null character)
     // cout << num[0] << endl;
-    vector<int> vectorOhYeah = {42, 0, 1, 99, 37};
+    vector<int> vectorOhYeah ={54,23,234,245,64};
     vectorOhYeah.push_back(32);
     // Erase the first elementout 
     vectorOhYeah.erase(vectorOhYeah.begin());
@@ -30,10 +30,11 @@ int main(){
 
     // Erase the second element (index 1)
     vectorOhYeah.erase(vectorOhYeah.begin() + 1);
+    cout<<vectorOhYeah.empty()<<endl;
     for(int i = 0; i < size(vectorOhYeah); i++) {
-        cout << vectorOhYeah.at(i) << endl;
+        cout << vectorOhYeah[i] << endl;
     }
     return 0;
-    
-
+    //input a and input b
+    //NAND(A, A) = NOT(A AND A) = NOT(A)
 }
