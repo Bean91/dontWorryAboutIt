@@ -49,7 +49,17 @@
         "xloctime": "cpp",
         "xmemory": "cpp",
         "xtr1common": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "algorithm": "cpp",
+        "__locale": "cpp",
+        "__threading_support": "cpp",
+        "__verbose_abort": "cpp",
+        "bitset": "cpp",
+        "cwctype": "cpp",
+        "fstream": "cpp",
+        "mutex": "cpp",
+        "print": "cpp",
+        "string_view": "cpp"
     },
     "github.copilot.enable": {
         "*": false,
